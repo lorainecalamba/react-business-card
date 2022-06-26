@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #23252c;
+  font-family: Inter, sans-serif;
+}
+.main--container {
+  display: flex;
+  justify-content: flex-start;
+}
+.business-card-container {
+  width: 300px;
+  height: inherit;
+  margin: 4.5rem auto;
+  background: #1a1b21;
+  border-radius: 5px;
+}
+.card--photo {
+  width: 300px;
+  border-radius: 5px 5px 0 0;
+}
+.card--name {
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 21px;
+}
+.card--title {
+  text-align: center;
+  margin-top: 7px;
+  color: #f3bf99;
+  font-weight: 400;
+  font-size: 12.8px;
+  line-height: 20px;
+}
+.card--website {
+  font-size: 10.24px;
+  color: #f5f5f5;
+  text-align: center;
+  line-height: 25px;
+}
+
+.card--buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 115px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn > i {
+  font-size: 16px;
+  margin-right: 5px;
+}
+.card--about-container {
+  padding: 0px 23px;
+  color: white;
+  margin-bottom: 15px;
+}
+.card--about-title {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 35px;
+}
+.card--about-description {
+  font-size: 11px;
+  line-height: 15.36px;
+  font-weight: 400;
+}
+
+.card--social {
+  display: flex;
+  justify-content: center;
+  background-color: #161619;
+  border-radius: 0 0 5px 5px;
+  margin-top: 40px;
+}
+.card--social i {
+  font-size: 25px;
+  color: #918e9b;
+  padding: 20px 10px;
+}
